@@ -7,6 +7,7 @@ import { IconButton } from '@mui/material';
 
 
 const Footerleft = () => {
+    const email = 'healinghands@gmail.com'
   return (
     <div className={styles.footerLeft}>
         <div className={styles.Topcontainer}>
@@ -29,13 +30,13 @@ const Footerleft = () => {
                    <li className={styles.iconsContainer}>
                       <Link href='mailto:info@example.com?subject=subject&cc=cc@example.com'>
                             <a>
-                            <Image src='/icons/email.svg' height="25px" width="25px" />
+                            <Image src='/icons/email.svg' height="25px" width="25px" alt='healing hands'/>
                             </a>
                       </Link>
                      
                    </li>
                    <li>
-                       <p>healinghands@gmail.com</p>
+                       <p>{email}</p>
                    </li>
                </ul>
                <ul>
@@ -57,7 +58,7 @@ const Footerleft = () => {
                 <IconButton>
                     <Link href='tel:8882655512'>
                          <a>
-                         <Image src='/icons/phone.svg' height='25px' width='25px' />
+                         <Image src='/icons/phone.svg' height='25px' width='25px' alt='healing hands' />
                          </a>
                     </Link>
                

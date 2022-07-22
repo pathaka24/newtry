@@ -31,6 +31,9 @@ const ResultLeft = () => {
         link:"Work Injuries"
        }
      ]
+
+     const da= 'Need Help?'
+     const h3 = "Speak with a human to filling out a form? call corporate office and we will connect you with a team member who can help."
   return (
     <div className={styles.resLeftMain}>
           <div className={styles.resLeftMainTop}>
@@ -55,10 +58,10 @@ const ResultLeft = () => {
          </div>
          <div className={styles.resLeftBot}>
               <h1>
-              Need Help?
+                  {da}
               </h1>
               <h3> 
-              Speak with a human to filling out a form? call corporate office and we will connect you with a team member who can help.
+                  {h3}
               </h3>
               <h1>
                 <Link href='tel:666666666'>

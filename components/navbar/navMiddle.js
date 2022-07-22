@@ -34,7 +34,7 @@ const NavMiddle = () => {
           <Link href='/'>
               <a>
                   <div className={styles.navMiddleImg}>
-                 <Image src='/icons/hhpb.png' layout='fill' />
+                 <Image src='/icons/hhpb.png' layout='fill' alt='healing hands' />
                  
                    </div>
               </a>

@@ -8,7 +8,7 @@ const BasicList = (props) => {
     <div className={styles.basicListCon} style={{background: `${props.bgcolor}`}}>
         <div className={styles.basicListCon1}>
         <div className={styles.basicImg} >
-            <Image src={props.imgUrl} layout='fill' />
+            <Image src={props.imgUrl} layout='fill' alt='healing hands' />
         </div>
          <div  className={styles.basicText} style={{color: `${props.titleColor}`}}>
               <h1>{props.title}</h1>
