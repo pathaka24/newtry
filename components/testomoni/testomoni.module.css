@@ -1,0 +1,21 @@
+.testMain {
+    display: flex;
+    flex-direction: column;
+}
+.testTop {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.testBot {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    margin: 1rem;
+    gap: 30px;
+    flex-wrap: wrap;
+}

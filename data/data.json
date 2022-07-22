@@ -1,0 +1,39 @@
+  [
+    {
+        "id":0,
+       "imgUrl": "/service/service-5.jpg",
+       "name":"Physiotherapy",
+        "des":"Physiotherapy is treatment to restore, maintain, and make the most of a patient's mobility, function, and well-being.PT management commonly includes prescription of or assistance with specific exercises, manual therapy, and manipulation, mechanical devices such as traction, education, electrophysical modalities which include heat, cold, electricity, sound waves, radiation, assistive devices, prostheses, orthoses, and other interventions. In addition, PTs work with individuals to prevent the loss of mobility before it occurs by developing fitness and wellness-oriented programs for healthier and more active lifestyles, providing services to individuals and populations to develop, maintain and restore maximum movement and functional ability throughout the lifespan. This includes providing treatment in circumstances where movement and function are threatened by aging, injury, disease, or environmental factors. Functional movement is central to what it means to be healthy."
+
+    },
+    {
+        "id":1,
+        "imgUrl": "/service/service-6.jpg",
+        "name":"Massage Therapy",
+        "des":"In massage therapy, a trained, certified medical professional (massage therapist) manipulates the soft tissues of your body — muscle, connective tissue, tendons, ligaments and skin. The massage therapist uses varying degrees of pressure and movement. Massage is generally considered part of integrative medicine. Medical centers are offering it more and more as a treatment along with standard treatment. It may be used for a wide range of medical conditions."
+    },
+    {
+        "id":2,
+        "imgUrl": "/service/service-7-1.jpg",
+        "name":"Chiroptratic Therapy",
+        "des":"Spinal manipulation and manual manipulation.7 This type of manual manipulation refers to a high-velocity, short lever arm thrust that is applied to abnormal vertebra with the goal of improving functionality, reducing nerve irritability and restoring range of motion in the back. It is also commonly known as  chiropractic adjustment .There is firm literature support for chiropractic treatment of lower back pain. Many of the published guidelines recommend chiropractic manipulation to be included in the treatment plan early in the care of lower back pain. Mobilization.7 Chiropractic mobilization refers to low velocity manipulation, movement and stretching of the muscles and joints, with the goal of increasing the range of motion within those areas."
+    },
+    {
+        "id":3,
+        "imgUrl": "/service/service-8.jpg",
+       "name":"Sports Injury",
+        "des":"Sports injuries occur while participating in organized sports, competitions, training sessions or organized fitness activities.According to the IOC manual of sports injuries (2012) a sports injury may be defined as “damage to the tissues of the body that occurs as a result of sport or exercise.” Overtraining, lack of conditioning, and inappropriate technique of performing a certain task leads to sport injuries. Neglecting to warm up prior to exercising or playing any physical sports also increases the risk of injuries.Common high-injury risk sports are football or soccer, basketball, cricket, volleyball, skiing and tennis. Sports injuries result from acute trauma or repetitive stress associated with athletic activities; and can affect bones, soft tissues (ligaments, muscles and tendons) or other organs like the heart, lungs and eyes."
+    },
+    {
+        "id":4,
+        "imgUrl": "/service/service-9-1.jpg",
+       "name":"Clinical Pilates",
+        "des":"rohealth Sports and Spinal clinical pilates programmes offers clincial pilates classes in Delhi. The pilates programmes are categorised into three core levels of principles. A physiotherapist will always conduct a thorough one-on-one initial assessment ﬁrst in the clincial pilates classes in Delhi. Level One is for anyone wanting to gain an understanding of basic core strengthening/ Pilates principles. Level Two is for higher level activities once the basic techniques have been mastered. Level Three is for those who would like to continue using clinical Pilates as a component of their fitness schedule or someone who requires more extensive rehabilitation."
+    },
+    {
+        "id":5,
+        "imgUrl": "/service/service-10.jpg",
+        "name":"Work Injuries",
+        "des":"Pain in the upper limb is frequent among employees with repetitive and forceful job tasks. Pain may originate from activation of peripheral nociceptors due to tissue damage. However, when the perception of pain for some reason persists beyond the expected time for tissue healing, chronicity has occurred. The subjective experience of chronic pain is the result of the transduction, transmission and modulation of sensory information, signifying the involvement of central mechanisms in the perception of pain. Hence, general hyperalgesia, evidenced by reduced pressure pain threshold (PPT) in a non-painful part of the body, is present in many variants of chronic pain including carpal tunnel syndrome, fibromyalgia, chronic low back pain, and trapezius myalgia. Work-related upper limb disorder (WRULD), repetitive strain injury (RSI), occupational overuse syndrome (OOS) and work-related complaints of the arm, neck or shoulder (CANS) are the most frequently used umbrella terms for disorders that develop as a result of repetitive movements, awkward postures and impact of external forces such as those associated with operating vibrating tools.  However, evidence of a central component to work related chronic pain in the upper limb is lacking. Work related chronic pain is often accompanied by an escalating imbalance between work demands and individual resources, consequently affecting work ability. In line with this, workers exposed to highly repetitive and forceful exertion, lack of sufficient recovery, and awkward postures have an elevated risk of both impaired work ability and musculoskeletal disorders. Additionally, impaired work ability has been associated with loss of productivity, sickness absence, early retirement and all-cause mortality"
+    }
+]

@@ -1,0 +1,29 @@
+.footermiddleContianer {
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    
+}
+.middleContianerOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.middleContianerOne h2 {
+     color: white;
+     margin: 30px;
+}
+.middleContianerOne ul {
+     list-style:none ;
+     margin: 20px;
+}
+.middleContianerOne ul li {
+    list-style:none ;
+    margin: 20px;
+    color: rgb(192, 192, 192);
+    cursor: pointer;
+}
+.middleContianerOne ul li:hover {
+    color: rgb(255, 255, 255);
+}
+ 

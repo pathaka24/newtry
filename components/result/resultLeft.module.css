@@ -1,0 +1,123 @@
+.resLeftMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.resLeftMainTop {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+     padding: 1rem;
+     background: rgba(255, 190, 115, 0.55);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 5.5px );
+-webkit-backdrop-filter: blur( 5.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+ 
+
+.resLeftMainTop ul {
+    list-style: none;
+    margin: 10px;
+    
+}
+
+.resLeftMainTop ul li {
+    margin: 10px;
+    padding-bottom: 10px;
+    color: rgb(80, 80, 80);
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.resLeftMainTop ul li:hover {
+    background-color: white;
+    color: rgb(7, 7, 7);
+    width: 100%;
+    padding: 3px;
+}
+
+.resLeftBot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    padding: 1rem;
+    color: white;
+    height: 50vh;
+    background: #910534de;
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 5.5px );
+-webkit-backdrop-filter: blur( 5.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+justify-content: space-around;
+}
+
+.resLeftBot h1 {
+    font-size: 1.5rem;
+    font-size: 600;
+    color: rgb(255, 123, 0);
+}
+
+.resLeftBot h3 {
+    font-size: 1rem;
+    font-size: 400;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .resLeftMain  {
+        display: flex;
+    }
+    .resLeftMainTop {
+        width: 50%;
+        display: flex;
+    flex-direction: column;
+     align-items: flex-start;
+    }
+    .resLeftMainTop ul li:hover {
+        background-color: white;
+        color: rgb(7, 7, 7);
+        width: 100%;
+        padding: 3px;
+    }
+    .resLeftBot {
+        height: 30vh;
+        margin-bottom: 2rem;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .resLeftMain  {
+        display: flex;
+    }
+    .resLeftMainTop {
+        width: 100%;
+        display: flex;
+    flex-direction: column;
+     align-items: flex-start;
+    }
+    .resLeftMainTop ul li:hover {
+        background-color: white;
+        color: rgb(7, 7, 7);
+        width: 100%;
+        padding: 3px;
+    }
+    .resLeftBot {
+        height: 30vh;
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,45 @@
+.helperContainer {
+    display: flex;
+    padding: 5px;
+}
+ 
+.helperText p {
+   font-weight: 500;
+   color: rgb(165, 165, 165);
+}
+
+.helperText h2{
+    font-weight: 600;
+    font-size: 1.4rem;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .helperText h2{
+        font-weight: 600;
+        font-size: 1.2rem;
+        padding-top: 5px;
+        cursor: pointer;
+    } 
+}
+
+@media only screen and (max-width: 600px) {
+    .helperContainer {
+        display: flex;
+        align-items: center;
+    }
+    .helperText p {
+        font-weight: 500;
+        color: rgb(165, 165, 165);
+        font-size: 0.5rem;
+     }
+     
+    .helperText h2{
+        font-weight: 600;
+        font-size: 0.6rem;
+        padding-top: 5px;
+        cursor: pointer;
+    } 
+}

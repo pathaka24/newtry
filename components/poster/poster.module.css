@@ -1,0 +1,49 @@
+.posterMain {
+    display: flex;
+
+}
+ 
+
+.posterRight {
+    height: 100vh;
+    width: 100%;
+    background-color: #22272B;
+    
+}
+.posterRightPro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.posterRightTop{
+    color: #D9A82C;
+}
+
+.posterRightText {
+    width: 80%;
+}
+
+.posterRightText h1 {
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.posterRightText h3 {
+    margin-bottom: 2rem;
+    color: rgb(190, 188, 188);
+}
+.posterRightBot h3 {
+    color: rgb(214, 255, 30);
+}
+
+@media only screen and (max-width: 768px) {
+    .posterMain {
+        display: flex;
+        flex-direction: column;
+    }
+    .posterLeft {
+        width: 100%;
+    }
+     
+}

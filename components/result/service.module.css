@@ -1,0 +1,32 @@
+.serviceConMain {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 10px;
+}
+ .serviceConText {
+    color: #F50057;
+    margin-top: 1rem;
+    display: flex;
+   justify-content: center;
+ }
+.serviceCon {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%; 
+    
+    padding: 1rem;
+}
+.serviceCon1 {
+    display: flex;
+    margin: 1rem;
+    gap: 5%; 
+}
+@media only screen and (max-width: 768px) {
+    .serviceCon {
+        display: flex;
+         
+        
+        margin: 0.5rem;
+        padding: 1rem;
+    }
+}

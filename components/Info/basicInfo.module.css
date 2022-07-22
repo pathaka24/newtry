@@ -1,0 +1,11 @@
+.basicInfoCon {
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    .basicInfoCon {
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+}

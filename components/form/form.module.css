@@ -1,0 +1,25 @@
+.formMain {
+    height: 100vh;
+    width: 100%;
+    background-color: #1d2127e3;
+    display: flex;
+    justify-content: space-evenly ;
+    padding: 2rem;
+    align-items: center;
+      
+}
+@media only screen and (max-width: 768px) {
+    .formMain {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .formMain {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+}

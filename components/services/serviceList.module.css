@@ -1,0 +1,7 @@
+.imgCon:hover {
+     transition: 5s;
+     transform: scale(1.1);
+     overflow: hidden;
+     cursor: pointer;
+     background-color: rgba(0, 0, 0, 0.555);
+}

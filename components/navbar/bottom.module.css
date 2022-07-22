@@ -1,0 +1,52 @@
+.bottomCantainer {
+    width: 70%;
+    border-bottom: 5px #C51162 solid;
+    margin-left: auto;
+    margin-right:  auto;
+    position: absolute;
+    background-color: white;
+    left: 10rem;
+    right: auto;
+    z-index: 100;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 10px;
+}
+.bottomCantainerList {
+    display: flex;
+    list-style: none;
+    margin: 10px;
+     align-items: center;
+}
+.bottomCantainerList li {
+    margin-left: 2rem;
+    font-size: 1rem;
+    color: rgb(75, 75, 75);
+    font-weight: 500;
+    cursor:  pointer;
+}
+
+.bottomCantainerList li:active  {
+    color: red;
+}
+.bottomCantainerList li:hover  {
+    color: red;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .bottomCantainer {
+        
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        left: 0;
+    }
+    .bottomCantainerList li {
+        font-size: 0.8rem;
+    }
+}

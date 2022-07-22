@@ -1,0 +1,34 @@
+.basicListCon {
+    
+    flex: 1;
+  
+  
+}
+.basicListCon:hover {
+    transition: 2s ease-out  ;
+    transform:  scale(1.08);
+   
+}
+.basicListCon1 {
+    width: 70%;
+     margin-left: auto;
+     margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.basicImg {
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .basicListCon1 {
+        width: 100%;
+        padding: 1rem;
+        padding-bottom: 1rem;
+    }
+}
