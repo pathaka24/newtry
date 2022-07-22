@@ -47,9 +47,9 @@ const Poster = (props) => {
              <div className={styles.posterRightBot} >
                    <h3>
                   
-                    <span>  <IconButton><Image src='/icons/pub.svg' height='30px' width='30px' /></IconButton></span>24 Hours Emergency Services</h3>
-                   <h3> <span>  <IconButton><Image src='/icons/pub.svg' height='30px' width='30px' /></IconButton></span>Professional and Certified Therapists</h3>
-                   <h3> <span>  <IconButton><Image src='/icons/pub.svg' height='30px' width='30px' /></IconButton></span>Get Free Consultation Anytime</h3>
+                    <span>  <IconButton><Image src='/icons/pub.svg' alt='healing hands' height='30px' width='30px' /></IconButton></span>24 Hours Emergency Services</h3>
+                   <h3> <span>  <IconButton><Image src='/icons/pub.svg' alt='healing hands' height='30px' width='30px' /></IconButton></span>Professional and Certified Therapists</h3>
+                   <h3> <span>  <IconButton><Image src='/icons/pub.svg' alt='healing hands' height='30px' width='30px' /></IconButton></span>Get Free Consultation Anytime</h3>
              </div>
               
         </div>

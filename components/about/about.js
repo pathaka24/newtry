@@ -1,14 +1,13 @@
 import React from 'react'
-import AboutImg from './aboutim'
-import AboutName from './aboutName'
+ 
 
 const About = () => {
   return (
     <div>
         <div>
-            <AboutImg />
+             <h1>dgs</h1>
         </div>
-        <AboutName />
+        
     </div>
   )
 }

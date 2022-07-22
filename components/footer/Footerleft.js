@@ -13,7 +13,7 @@ const Footerleft = () => {
         <div className={styles.Topcontainer}>
         <div className={styles.imgContainer}>
             <Link href='/'> 
-                <Image src='/icons/hhp1.png' layout='fill' /> 
+                <Image src='/icons/hhp1.png' layout='fill'  alt='healing hands'/> 
             </Link>
               
         </div>
@@ -30,7 +30,7 @@ const Footerleft = () => {
                    <li className={styles.iconsContainer}>
                       <Link href='mailto:info@example.com?subject=subject&cc=cc@example.com'>
                             <a>
-                            <Image src='/icons/email.svg' height="25px" width="25px" alt='healing hands'/>
+                            <Image src='/icons/email.svg' alt='healing hands' height="25px" width="25px" />
                             </a>
                       </Link>
                      
@@ -43,7 +43,7 @@ const Footerleft = () => {
                    <li>
                     <Link href='/location/location'>
                          <a>
-                         <Image src='/icons/location.svg' height="25px" width="25px" />
+                         <Image src='/icons/location.svg' alt='healing hands' height="25px" width="25px" />
                          </a>
                     </Link>
                       
